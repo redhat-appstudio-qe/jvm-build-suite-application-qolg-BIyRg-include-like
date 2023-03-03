@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-cbmu
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:40ec95238adb44d4ab908ac03b52bc2b
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:8a17c582f407196f7a2bd3639864b98c1a983f8d6fef6c4228bd228ff330c948
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
